@@ -25,7 +25,7 @@ public class OrderDAOtest {
 
 	@BeforeClass
 	public static void init() {
-		DBUtils.connect("root", "root");
+		DBUtils.connect();
 	}
 
 	@Before
@@ -75,8 +75,8 @@ public class OrderDAOtest {
 		order2.getItems().add(wheelieBin);
 		order2.getItems().add(wheelieBin);
 		
-		expected.add(order2);
 		expected.add(order1);
+		expected.add(order2);
 		
 		for(Order order: expected) {
 			for(Item item: order.getItems()) {
@@ -164,7 +164,7 @@ public class OrderDAOtest {
 	@Test
 	public void testDeleteLine() {
 		final long orderID = 1L;
-		final long itemID = 4L;
+		final long itemID = 1L;
 		assertEquals(1, DAO.deleteLine(orderID, itemID));
 	}
 }

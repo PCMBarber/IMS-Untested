@@ -21,12 +21,13 @@ public class OrderTest {
 	
 	@Test
 	public void testSetters() {
+		assertFalse(testOrder1.equals(testOrder3));
 		testOrder1.setCustomer(new Customer(2L, "chris", "perrins"));
-		testOrder1.setId(2l);
+		testOrder1.setId(1L);
 		testOrder1.setItem(new ArrayList<>());
 		
 		assertFalse(testOrder1.equals(testOrder2));
-		assertTrue(testOrder1.equals(testOrder3));
+		assertTrue(testOrder1.equals(testOrder1));
 	}
 	@Test
 	public void testGetters() {

@@ -1,133 +1,288 @@
-20211111 09:53:57 DEBUG [main] utils.DBUtils DBUtils.java63 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "ITEMS" because "FK_ITEM_ID" depends on it; SQL statement:
-DROP TABLE IF EXISTS items [90107-200]
-20211111 09:53:58 DEBUG [main] utils.DBUtils DBUtils.java63 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "ITEMS" because "FK_ITEM_ID" depends on it; SQL statement:
-DROP TABLE IF EXISTS items [90107-200]
-20211111 09:53:58 DEBUG [main] utils.DBUtils DBUtils.java63 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "ITEMS" because "FK_ITEM_ID" depends on it; SQL statement:
-DROP TABLE IF EXISTS items [90107-200]
-20211111 09:53:58 DEBUG [main] utils.DBUtils DBUtils.java63 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "ITEMS" because "FK_ITEM_ID" depends on it; SQL statement:
-DROP TABLE IF EXISTS items [90107-200]
-20211111 09:53:58 DEBUG [main] utils.DBUtils DBUtils.java63 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "ITEMS" because "FK_ITEM_ID" depends on it; SQL statement:
-DROP TABLE IF EXISTS items [90107-200]
-20211111 09:53:58 DEBUG [main] utils.DBUtils DBUtils.java63 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "ITEMS" because "FK_ITEM_ID" depends on it; SQL statement:
-DROP TABLE IF EXISTS items [90107-200]
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
-20211111 09:53:59 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
-20211111 09:53:59 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
-20211111 09:53:59 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java34 - id:1 first name:jordan surname:harrison
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java41 - Please enter a first name
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java43 - Please enter a surname
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java46 - Customer created
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java71 - Please enter the id of the customer you would like to delete
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java55 - Please enter the id of the customer you would like to update
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java55 - Please enter the id of the customer you would like to update
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java59 - id:1 first name:chris surname:perrins
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java60 - Please enter a first name
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java62 - Please enter a surname
-20211111 09:53:59 INFO  [main] controller.CustomerController CustomerController.java65 - Customer Updated
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20211111 13:33:18 ERROR [main] domain.Domain Domain.java40 - Invalid selection please try again
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with customer:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with item:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java72 - What would you like to do with order:
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - CREATE: To save a new entity into the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - READ: To read an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - UPDATE: To change an entity already in the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - DELETE: To remove an entity from the database
+20211111 13:33:18 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20211111 13:33:18 INFO  [main] ims.IMS IMS.java48 - Which entity would you like to use?
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20211111 13:33:18 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java34 - id:1 first name:jordan surname:harrison
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java41 - Please enter a first name
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java43 - Please enter a surname
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java46 - Customer created
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java71 - Please enter the id of the customer you would like to delete
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java55 - Please enter the id of the customer you would like to update
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java55 - Please enter the id of the customer you would like to update
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java59 - id:1 first name:chris surname:perrins
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java60 - Please enter a first name
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java62 - Please enter a surname
+20211111 13:33:18 INFO  [main] controller.CustomerController CustomerController.java65 - Customer Updated
+20211111 13:33:19 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:19 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:20 DEBUG [main] dao.ItemDAO ItemDAO.java53 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:20 ERROR [main] dao.ItemDAO ItemDAO.java54 - Wrong user name or password [28000-200]
+20211111 13:33:22 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:26 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:30 DEBUG [main] dao.ItemDAO ItemDAO.java86 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:30 ERROR [main] dao.ItemDAO ItemDAO.java87 - Wrong user name or password [28000-200]
+20211111 13:33:30 INFO  [main] dao.ItemDAO ItemDAO.java88 - Item does not exist!
+20211111 13:33:35 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:39 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:43 DEBUG [main] dao.ItemDAO ItemDAO.java40 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:43 ERROR [main] dao.ItemDAO ItemDAO.java41 - Wrong user name or password [28000-200]
+20211111 13:33:47 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:51 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:55 DEBUG [main] dao.ItemDAO ItemDAO.java67 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:33:55 ERROR [main] dao.ItemDAO ItemDAO.java68 - Wrong user name or password [28000-200]
+20211111 13:33:59 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:03 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:07 DEBUG [main] dao.ItemDAO ItemDAO.java113 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:07 ERROR [main] dao.ItemDAO ItemDAO.java114 - Wrong user name or password [28000-200]
+20211111 13:34:11 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:15 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:19 DEBUG [main] dao.ItemDAO ItemDAO.java101 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:19 ERROR [main] dao.ItemDAO ItemDAO.java102 - Wrong user name or password [28000-200]
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java29 - Item [id=5, name=chess set, price= £12.99, quantity=7]
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java36 - Please enter an item name
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java38 - Please enter a price
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java40 - Please enter a quantity of stock
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java43 - Item created
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java29 - Item [id=5, name=chess set, price= £12.99, quantity=7]
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java71 - Item [id=5, name=chess set, price= £12.99, quantity=7]
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java73 - Please enter the id of the item you would like to delete
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java52 - Please enter the id of the item you would like to update
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java52 - Please enter the id of the item you would like to update
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java56 - Item [id=5, name=chess set, price= £12.99, quantity=7]
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java57 - Please enter an item name
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java59 - Please enter a price
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java61 - Please enter a quantity of stock
+20211111 13:34:19 INFO  [main] controller.ItemController ItemController.java64 - Item Updated
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java37 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=3, name=wheelie bin, price= £3.99, quantity=1] 
+Item [id=4, name=nike airs, price= £40.99, quantity=1] 
+ Total Price: £44.980000000000004]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java37 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=3, name=wheelie bin, price= £3.99, quantity=1] 
+Item [id=4, name=nike airs, price= £40.99, quantity=1] 
+ Total Price: £44.980000000000004]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java46 - id:3 first name:Piers surname:Barber
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java48 - Please enter the customer id
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java55 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java55 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java55 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java57 - Please enter the item id of the chosen product
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java60 - Would you like to add another?
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java55 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java55 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java55 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java57 - Please enter the item id of the chosen product
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java60 - Would you like to add another?
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java37 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+ Total Price: £3.99]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java113 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+ Total Price: £3.99]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java115 - Please enter the id of the order you would like to delete
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java72 - Please enter the order of the item you would like to update
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java72 - Please enter the order of the item you would like to update
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java79 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+ Total Price: £11.97]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java80 - Add or delete an item? exit to stop
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java85 - Enter item id to delete
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java79 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+ Total Price: £11.97]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java80 - Add or delete an item? exit to stop
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java92 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java92 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java92 - Item [id=2, name=wheelie bin, price= £3.99, quantity=84528]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java94 - Please enter the item id to add
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java79 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+ Total Price: £11.97]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java80 - Add or delete an item? exit to stop
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java102 - Invalid selection
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java79 - Order [id=3, customer=id:3 first name:Piers surname:Barber, Items: 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+Item [id=2, name=wheelie bin, price= £3.99, quantity=84528] 
+ Total Price: £11.97]
+20211111 13:34:21 INFO  [main] controller.OrderController OrderController.java80 - Add or delete an item? exit to stop
+20211111 13:34:21 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:21 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:23 DEBUG [main] dao.OrderDAO OrderDAO.java153 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:23 ERROR [main] dao.OrderDAO OrderDAO.java154 - Wrong user name or password [28000-200]
+20211111 13:34:25 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:29 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:33 DEBUG [main] dao.OrderDAO OrderDAO.java165 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:33 ERROR [main] dao.OrderDAO OrderDAO.java166 - Wrong user name or password [28000-200]
+20211111 13:34:37 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:41 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:45 DEBUG [main] dao.OrderDAO OrderDAO.java60 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:45 ERROR [main] dao.OrderDAO OrderDAO.java61 - Wrong user name or password [28000-200]
+20211111 13:34:49 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:53 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:57 DEBUG [main] dao.OrderDAO OrderDAO.java99 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:34:57 ERROR [main] dao.OrderDAO OrderDAO.java100 - Wrong user name or password [28000-200]
+20211111 13:34:57 INFO  [main] dao.OrderDAO OrderDAO.java101 - Order does not exist!
+20211111 13:35:01 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:05 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:09 DEBUG [main] dao.OrderDAO OrderDAO.java116 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:09 ERROR [main] dao.OrderDAO OrderDAO.java117 - Wrong user name or password [28000-200]
+20211111 13:35:13 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:18 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:22 DEBUG [main] dao.OrderDAO OrderDAO.java47 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:22 ERROR [main] dao.OrderDAO OrderDAO.java48 - Wrong user name or password [28000-200]
+20211111 13:35:26 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:30 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:34 DEBUG [main] dao.OrderDAO OrderDAO.java73 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:34 ERROR [main] dao.OrderDAO OrderDAO.java74 - Wrong user name or password [28000-200]
+20211111 13:35:38 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:42 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:46 DEBUG [main] dao.OrderDAO OrderDAO.java142 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:46 ERROR [main] dao.OrderDAO OrderDAO.java143 - Wrong user name or password [28000-200]
+20211111 13:35:50 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:54 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:58 DEBUG [main] dao.OrderDAO OrderDAO.java130 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:35:58 ERROR [main] dao.OrderDAO OrderDAO.java131 - Wrong user name or password [28000-200]
+20211111 13:36:00 INFO  [main] dao.OrderDAO OrderDAO.java84 - Item added to order 1
+20211111 13:36:01 ERROR [main] utils.DBUtils DBUtils.java32 - java.io.FileNotFoundException: not\a\path\to\properties\file (The system cannot find the path specified)
+20211111 13:36:01 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:01 DEBUG [main] utils.DBUtils DBUtils.java69 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO UNKNOWN[*] VALUES (BAD, DATA)"; expected "identifier"; SQL statement:
+insert into unknown values (bad, data) [42001-200]
+20211111 13:36:02 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:02 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:03 DEBUG [main] dao.CustomerDAO CustomerDAO.java52 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:03 ERROR [main] dao.CustomerDAO CustomerDAO.java53 - Wrong user name or password [28000-200]
+20211111 13:36:05 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:09 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:13 DEBUG [main] dao.CustomerDAO CustomerDAO.java79 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:13 ERROR [main] dao.CustomerDAO CustomerDAO.java80 - Wrong user name or password [28000-200]
+20211111 13:36:13 INFO  [main] dao.CustomerDAO CustomerDAO.java81 - Customer does not exist!
+20211111 13:36:17 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:21 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:25 DEBUG [main] dao.CustomerDAO CustomerDAO.java39 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:25 ERROR [main] dao.CustomerDAO CustomerDAO.java40 - Wrong user name or password [28000-200]
+20211111 13:36:30 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:34 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:38 DEBUG [main] dao.CustomerDAO CustomerDAO.java66 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:38 ERROR [main] dao.CustomerDAO CustomerDAO.java67 - Wrong user name or password [28000-200]
+20211111 13:36:42 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:46 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:50 DEBUG [main] dao.CustomerDAO CustomerDAO.java106 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:50 ERROR [main] dao.CustomerDAO CustomerDAO.java107 - Wrong user name or password [28000-200]
+20211111 13:36:54 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:36:58 DEBUG [main] utils.DBUtils DBUtils.java74 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:37:02 DEBUG [main] dao.CustomerDAO CustomerDAO.java94 - org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-200]
+20211111 13:37:02 ERROR [main] dao.CustomerDAO CustomerDAO.java95 - Wrong user name or password [28000-200]

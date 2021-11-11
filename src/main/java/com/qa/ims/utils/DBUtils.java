@@ -39,7 +39,13 @@ public class DBUtils {
 	public DBUtils() {
 		this("src/main/resources/db.properties");
 	}
-
+	
+	private DBUtils(boolean connectionFail) {
+		this.DB_URL = "jdbc:h2:./target/ims";
+		this.DB_USER = "Unknown";
+		this.DB_PASS = "Fail";
+	}
+	
 	public int init(String... paths) {
 		int modified = 0;
 
@@ -80,6 +86,11 @@ public class DBUtils {
 		instance = new DBUtils();
 		return instance;
 	}
+	
+	public static DBUtils connectFail() {
+		instance = new DBUtils(true);
+		return instance;
+	}
 
 	public static DBUtils connect(String properties) {
 		instance = new DBUtils(properties);
@@ -91,6 +102,18 @@ public class DBUtils {
 			instance = new DBUtils();
 		}
 		return instance;
+	}
+
+	public String getDB_URL() {
+		return DB_URL;
+	}
+
+	public String getDB_USER() {
+		return DB_USER;
+	}
+
+	public String getDB_PASS() {
+		return DB_PASS;
 	}
 
 }

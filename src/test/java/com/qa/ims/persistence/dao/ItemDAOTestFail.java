@@ -20,7 +20,7 @@ public class ItemDAOTestFail {
 
 	@BeforeClass
 	public static void init() {
-		DBUtils.connect("root", "fail");
+		DBUtils.connectFail();
 	}
 
 	@Before

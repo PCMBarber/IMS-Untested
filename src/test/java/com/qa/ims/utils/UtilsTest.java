@@ -30,6 +30,18 @@ public class UtilsTest {
 	}
 	
 	@Test
+	public void testGetBoolean() {
+		String syote = "x\ntrue\nfalse\n";
+		boolean expectedTrue = true;
+		boolean expectedFalse = false;
+		MockInOut io = new MockInOut(syote);
+		Utils utils = new Utils();
+		
+		assertTrue(utils.getBoolean().equals(expectedTrue));
+		assertTrue(utils.getBoolean().equals(expectedFalse));
+	}
+	
+	@Test
 	public void uselessCoverage() {
 		Utils utils = new Utils(new Scanner(System.in));
 	}

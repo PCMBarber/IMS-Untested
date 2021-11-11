@@ -18,7 +18,7 @@ public class CustomerDAOTestFail {
 
 	@BeforeClass
 	public static void init() {
-		DBUtils.connect("root", "fail");
+		DBUtils.connectFail();
 	}
 
 	@Before

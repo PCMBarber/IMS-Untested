@@ -160,7 +160,7 @@ public class OrderDAO implements Dao<Order> {
 		try (Connection connection = DBUtils.getInstance().getConnection();
 				Statement statement = connection.createStatement();) {
 			return statement.executeUpdate("delete from orders_items where fk_order_id = " + orderID
-					+ " && fk_item_id = " + itemID + " LIMIT 1");
+					+ " AND fk_item_id = " + itemID + " LIMIT 1");
 		} catch (Exception e) {
 			LOGGER.debug(e);
 			LOGGER.error(e.getMessage());

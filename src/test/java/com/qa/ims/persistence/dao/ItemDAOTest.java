@@ -18,7 +18,7 @@ public class ItemDAOTest {
 
 	@BeforeClass
 	public static void init() {
-		DBUtils.connect("root", "root");
+		DBUtils.connect();
 	}
 
 	@Before

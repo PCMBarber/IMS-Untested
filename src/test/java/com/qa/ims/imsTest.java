@@ -36,7 +36,7 @@ public class imsTest {
 	
 	@Test
 	public void systemTest() {
-		when(utils.getString()).thenReturn("CUSTOMER","create","read","update","delete","return")
+		when(utils.getString()).thenReturn("INTENTIONAL FAIL","CUSTOMER","create","read","update","delete","return")
 		.thenReturn("ITEM","create","read","update","delete","return")
 		.thenReturn("ORDER","create","read","update","delete","return","stop");
 		when(customers.create()).thenReturn(null);
